@@ -1,0 +1,33 @@
+//	Elabore um algoritmo que peça para o usuário preencher com valores inteiros um vetor N de 5 posições. Ao final, deverá gerar outro vetor R informando onde os valores de N são pares e onde são ímpares. Exibir os dois vetores.
+programa
+{
+	const inteiro TAM = 5
+	inteiro A[TAM], B[TAM], R[TAM]
+	inteiro cont
+	funcao inicio()
+	{
+		para ( cont = 0; cont <= TAM-1; cont++ )
+		{ 
+			escreva(" Informe o valor para A[",cont,"j: ")
+			leia( A[cont] )
+		}
+		limpa()
+		para ( cont = 0; cont <= TAM-1; cont++ )
+		{ 
+			escreva(" Informe o valor para B[",cont,"j: ")
+			leia( B[cont] )
+		}
+		limpa()
+
+		escreva("\nValores de vetor A:")
+		para (cont = 0; cont <+ TAM-1; cont++ )
+
+		escreva("\nValores de vetor B:")
+		para (cont = 0; cont <+ TAM-1; cont++ )+
+
+		escreva("\nValores do vetor R; ")
+		para (cont = 0; cont <=TAM-1; cont++ )
+			escreva("\n",R[cont])
+
+	}
+}
