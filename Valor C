@@ -1,0 +1,97 @@
+// Elabore um algoritmo que peça para o usuário preencher dois valores A e B de 5 posições. 
+//Após isso, deverá ser gerado um vetor C informando qual o maior valor informando em cada posição, sendo A, B ou iguais. Exibir os três vetores
+
+programa
+{
+	const inteiro TAM = 5
+	inteiro A[TAM], B[TAM]
+	caracter C[TAM]
+	inteiro cont
+	funcao inicio()
+	{
+		para ( cont = 0; cont <= TAM-1; cont++ )
+		{ 
+			escreva(" Informe o valor para A[",cont,"]: ")
+			leia( A[cont] )
+	     }
+	     limpa ()
+
+	     para ( cont = 0; cont <= TAM-1; cont++ )
+		{ 
+			escreva(" Informe o valor para B[",cont,"]: ")
+			leia( B[cont] )
+			se ( A[cont] == B[cont] )
+				C[cont] = '='
+			senao
+			{
+
+			se ( A[cont] > B[cont] )
+				C[cont] = 'A'
+			senao
+				C[cont] = 'B'
+		     }
+
+	}
+	limpa()	
+	escreva("\nValores de A" )
+	para ( cont = 0; cont <= 4; cont++ )
+		escreva("\n",A[cont])
+	escreva("\nValores de B" )
+	para ( cont = 0; cont <= 4; cont++ )
+		escreva("\n",B[cont])
+	escreva("\nValores de C" )
+	para ( cont = 0; cont <= 4; cont++ )
+		escreva("\n",C[cont])
+
+
+
+
+
+
+	}     
+}programa
+{
+	const inteiro TAM = 5
+	inteiro A[TAM], B[TAM]
+	caracter C[TAM]
+	inteiro cont
+	funcao inicio()
+	{
+		para ( cont = 0; cont <= TAM-1; cont++ )
+		{ 
+			escreva(" Informe o valor para A[",cont,"]: ")
+			leia( A[cont] )
+	     }
+	     limpa ()
+
+	     para ( cont = 0; cont <= TAM-1; cont++ )
+		{ 
+			escreva(" Informe o valor para B[",cont,"]: ")
+			leia( B[cont] )
+			se ( A[cont] == B[cont] )
+				C[cont] = '='
+			senao
+			{
+
+			se ( A[cont] > B[cont] )
+				C[cont] = 'A'
+			senao
+				C[cont] = 'B'
+		     }
+
+	}
+	limpa()	
+	escreva("\nValores de A" )
+	para ( cont = 0; cont <= 4; cont++ )
+		escreva("\n",A[cont])
+	escreva("\nValores de B" )
+	para ( cont = 0; cont <= 4; cont++ )
+		escreva("\n",B[cont])
+	escreva("\nValores de C" )
+	para ( cont = 0; cont <= 4; cont++ )
+		escreva("\n",C[cont])
+
+
+
+	}     
+}
