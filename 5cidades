@@ -1,0 +1,25 @@
+programa
+{
+	cadeia cidade[5]
+	funcao inicio()
+	{
+		escreva("Informe primeiro nome de uma cidade: ")
+		leia( cidade[0])
+		escreva("Informe segundo nome de uma cidade: ")
+		leia( cidade[1])
+		escreva("Informe terceiro nome de uma cidade: ")
+		leia( cidade[2])
+		escreva("Informe quarto nome de uma cidade: ")
+		leia( cidade[3])
+		escreva("Informe quinto nome de uma cidade: ")
+		leia( cidade[4])
+
+		escreva("\n" ,cidade[0])
+		escreva("\n" ,cidade[1])
+		escreva("\n" ,cidade[2])
+		escreva("\n" ,cidade[3])
+		escreva("\n" ,cidade[4])
+
+
+	}
+}
