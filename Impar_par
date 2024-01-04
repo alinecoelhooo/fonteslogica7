@@ -1,0 +1,31 @@
+programa
+{
+	const inteiro TAM = 5
+	inteiro N[TAM]
+	caracter R[TAM]
+	inteiro cont
+	funcao inicio()
+	{
+		para ( cont = 0; cont <= TAM-1; cont++ )
+		{ 
+			escreva(" Informe o valor para N[",cont,"j: ")
+			leia( N[cont] )
+		
+
+		se ( N[cont] %2 == 0 )
+			R[cont] = 'P'
+		senao 
+			R[cont] = 'I'
+		}
+		limpa()
+		para (cont = 0; cont <=4; cont++ )
+			escreva("\n",N[cont] )
+		escreva("\n")
+		para (cont = 0; cont <=4; cont++ )
+			escreva("\n",R[cont] )	
+		
+			 
+
+
+	}
+}
