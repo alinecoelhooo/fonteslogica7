@@ -1,4 +1,5 @@
-
+// Elabore um algoritmo que peça para o usuário preencher dois valores A e B de 5 posições. Após isso, deverá ser gerado um
+//  vetor C informando qual o maior valor informando em cada posição, sendo A, B ou iguais. Exibir os três vetores
 
 programa
 {
