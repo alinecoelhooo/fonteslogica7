@@ -1,4 +1,6 @@
-//Elabore um algoritmo que peça para o usuário preencher valores inteiros de dois vetores A e B de 4 posições , após isso, o sistema deverá retornar um vetor R com o resultado da soma de vetores A e B para cada índice
+// Elabore um algoritmo que peça para o usuário informar os valores inteiros para preencher dois vetores A e B de 5 posições.
+// Após isso, o sistema deverá perguntar a operação aritmética desejada, sendo adição, Subtração, Multiplicação ou Divisão. 
+//    Ao final, deverá gerar um vetor R com o resultado da operação selecionada. Exibir três vetores.
 
 programa
 {
